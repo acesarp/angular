@@ -1,0 +1,14 @@
+<h4 id="title">Students</h4>
+<table border="1" id="tbl">
+    <tr>
+      <th>Id</th><th>First Name</th><th>Last Name</th><th>School</th><th>Started</th>
+    </tr>
+    <tr *ngFor="let s of studentArray">
+      <td>{{ s.studentId }}</td>
+      <td>{{ s.firstName }}</td>
+      <td>{{ s.lastName }}</td>
+      <td>{{ s.school }}</td>
+      <!-- <td>{{s.startDate | date:'yyyy-MM-dd'}}</td> -->
+      <td>{{s.startDate | date:'fullDate'}}</td>
+    </tr>
+</table>

@@ -1,0 +1,12 @@
+table#tbl {
+    background: aquamarine;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+h4#title {
+    font-size: xx-large;
+    color: green;
+    text-align: center;
+}
